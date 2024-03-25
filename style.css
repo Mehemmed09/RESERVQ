@@ -10,17 +10,15 @@
   font-style: normal;
 }
 #reservq {
-  position: fixed;
+  position: sticky;
   overflow: hidden;
   top: 0;
-  z-index: 999;
   display: flex;
   align-items: center;
   background-color: #000929;
   justify-content: space-evenly;
   height: 96px;
-  width: 100%;
-  float: top;
+width: 100%;
 }
 .logo {
   width: 140px;
@@ -239,6 +237,7 @@ i {
   width: 550px;
   height: 357px;
 }
+/* cardsectionn */
 .cardsSection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -355,6 +354,7 @@ img {
   height: 58px;
   color: white;
 }
+/* locationdinnersection */
 .locationdinnersection {
   background: url(https://reservq.vercel.app/assets/Process-bg-88e10cae.png);
   width: 100%;
@@ -425,6 +425,7 @@ img {
     right: 120px;
   }
 }
+/* mostpopularsection */
 .mostpopularitems {
   h2 {
     width: 960px;
@@ -490,6 +491,7 @@ img {
   width: 90%;
   margin: auto;
 }
+/* customersection */
 .customer {
   background-color: #000929;
   width: 100%;
@@ -742,16 +744,17 @@ img {
 .imagediv {
   margin-top: 280px;
   img{
-    width: 468px;
-    height: 208.02px;
+      height: 208.02px;
   }
 }
+/* footersection */
 footer {
   background: url(https://reservq.vercel.app/assets/Footers-bg-7148736e.png);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 60px;
+  height: 90vh;
 }
 .reservqfooter {
   display: block;
