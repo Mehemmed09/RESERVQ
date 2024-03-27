@@ -1,0 +1,294 @@
+.ContactHeader {
+  height: 60vh;
+  background-image: url("https://reservq.vercel.app/assets/Footers-bg-7148736e.png");
+}
+.OneTitle {
+  position: relative;
+  top: 150px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.LeftCall {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ffffff;
+  h1 {
+    font-size: 40px;
+    width: 400px;
+  }
+}
+.TwoTitle {
+  position: relative;
+  top: 150px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* //////////// */
+
+.ContactInfo {
+  /* flex-wrap: wrap; */
+  width: 400px;
+  height: 370px;
+  background-color: #ffffff;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  gap: 40px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.LeftCall {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ffffff;
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+  }
+}
+.ImgContactInfo {
+  color: red;
+  font-size: 50px;
+}
+.SendInfo {
+  /* flex-wrap: wrap; */
+  width: 400px;
+  height: 370px;
+  background-color: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.ImgSendInfo {
+  color: red;
+  font-size: 50px;
+}
+.TextInfo {
+  h5 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.TextSend {
+  h5 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.ContactCallAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.label1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  input {
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+  }
+  label {
+    font-size: 20px;
+  }
+}
+.label2 {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  input {
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+  }
+  label {
+    font-size: 20px;
+  }
+}
+.label3 {
+  margin-top: 40px;
+  textarea {
+    border-radius: 8px;
+    width: 500px;
+    height: 200px;
+  }
+  label {
+    font-size: 20px;
+  }
+}
+.sendnow {
+  width: 140px;
+  height: 50px;
+  background-color: #f01543;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.RightCall {
+  margin-top: 150px;
+  background-image: url("https://reservq.vercel.app/assets/from-e1762aba.png");
+}
+.map {
+  margin-top: 100px;
+  width: 50%;
+  height: 60vh;
+  margin: auto;
+}
+.gmap_canvas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gmap_iframe {
+  width: 800px;
+}
+@media only screen and (max-width: 524px) {
+  .ContactInfo {
+    /* flex-wrap: wrap; */
+    width: 300px;
+    height: 370px;
+    background-color: #ffffff;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    gap: 40px;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .ImgContactInfo {
+    color: red;
+    font-size: 50px;
+  }
+  .SendInfo {
+    /* flex-wrap: wrap; */
+    width: 300px;
+    height: 370px;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  .ImgSendInfo {
+    color: red;
+    font-size: 50px;
+  }
+  .TextInfo {
+    h5 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .TextSend {
+    h5 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .ContactCallAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .label1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    input {
+      border-radius: 8px;
+      height: 40px;
+      width: 200px;
+    }
+    label {
+      font-size: 20px;
+    }
+  }
+  .label2 {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    input {
+      border-radius: 8px;
+      height: 40px;
+      width: 200px;
+    }
+    label {
+      font-size: 20px;
+    }
+  }
+  .label3 {
+    margin-top: 40px;
+    textarea {
+      border-radius: 8px;
+      width: 200px;
+      height: 200px;
+    }
+    label {
+      font-size: 20px;
+    }
+  }
+  .sendnow {
+    width: 140px;
+    height: 50px;
+    background-color: #f01543;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+  .RightCall {
+    margin-top: 150px;
+    background-image: url("https://reservq.vercel.app/assets/from-e1762aba.png");
+  }
+  .map {
+    margin-top: 100px;
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+  }
+  .gmap_canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gmap_iframe {
+    width: 800px;
+  }
+}

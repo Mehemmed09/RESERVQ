@@ -1,0 +1,777 @@
+* {
+  margin: 0;
+padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+#reservq {
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #000929;
+  justify-content: space-evenly;
+  height: 96px;
+  width: 100%;
+}
+.logo {
+  width: 140px;
+  height: 80px;
+}
+.header__left {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__list ul {
+  font-size: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+i {
+  color: white;
+}
+.header__right {
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.header__register {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 400;
+  a {
+    color: white;
+    background: #f01543;
+  }
+}
+.header__register .first {
+  border-radius: 10px;
+  padding: 13px 32px;
+  border: 1.5px solid;
+  width: 110.95px;
+  height: 52px;
+  color: white;
+  border-color: #f01543;
+
+  &:hover {
+    background: #f01543;
+    transition: 0.8s;
+    border: 20px red;
+    border-radius: 50%;
+  }
+}
+.header__register .last {
+  border-radius: 10px;
+  border: 1.5px solid;
+  padding: 13px 32px;
+  width: 123.66px;
+  height: 52px;
+  background: fixed;
+}
+i {
+  font-size: larger;
+  background: fixed;
+}
+#aboutus {
+  background: url(https://reservq.vercel.app/assets/inner-bg-99d2ac4c.png);
+  padding: 270px 0px 128px;
+  color: white;
+}
+.abouttexts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.abouttext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 48px;
+  }
+}
+.hometext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 24px;
+}
+.Homea {
+  a {
+    color: white;
+  }
+}
+.Bigdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.images {
+}
+.backgroundimage {
+    img{
+        position: relative;
+        width: 468px;
+        height: 456px;
+    }
+ 
+
+}
+.animationimage {
+  position: absolute;
+  left: 320px;
+  top: 150%;
+  transform: translate(-50%, -50%);
+}
+.animation {
+img{
+    animation: Rotate 8s linear infinite;
+
+}
+}
+@keyframes Rotate{
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
+.animationtext50{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 111;
+    color: white;
+}
+.textanimation{
+    width: 492px;
+    height: 686px;
+}
+.twohdiv{
+    h2{
+        font-size: 48px;
+    }
+    h5{
+        padding-top: 18px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+        color: #4D5461;
+    }
+}
+.pdiv{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 150%;
+    color: #4D5461;
+}
+.itemsdiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+.item{
+    display: block;
+width: 250px;
+}
+.text31div{
+  
+
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 18px;
+        color: #4D5461;
+
+    }
+}
+.icondiv{
+    width: 250px;
+}
+.locationdinnersection {
+    background: url(https://reservq.vercel.app/assets/Process-bg-88e10cae.png);
+    width: 100%;
+    height: 1023.31px;
+    display: flex;
+  }
+  .dinnerimage img {
+    width: 468px;
+    height: 479.25px;
+  }
+  .dinnerimage {
+    width: 492px;
+    height: 842.31px;
+    padding: 200px;
+    img {
+      width: 468px;
+      height: 479.25px;
+    }
+  }
+  .locations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .locationitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 468px;
+    height: 135.19px;
+    background-color: #0d1634;
+    color: white;
+    border-radius: 30px;
+    margin-left: 300px;
+    gap: 20px;
+  }
+  .locationtext {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    width: 468px;
+    height: 201.56;
+    margin-bottom: 10px;
+    margin-left: 300px;
+  }
+  .locationicon {
+    font-size: 24px;
+    background: #ffffff1a;
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+  }
+  .locationitemstext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      position: absolute;
+      width: 32px;
+      height: 63px;
+      right: 120px;
+    }
+  }
+  /* mostpopularsection */
+  .mostpopularitems {
+    h2 {
+      width: 960px;
+      height: 67.19px;
+      font-size: 48px;
+      font-weight: 700;
+      padding: 90px;
+    }
+  }
+  .mostpopularcards {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 568px;
+    height: 285.09px;
+    border-radius: 20px;
+  }
+  .popularcardimage {
+    width: 328px;
+  }
+  .popularcardmain {
+    padding: 20px 10px 20px;
+  }
+  .popularcardend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  .popularcardbutton {
+    width: 163px;
+    height: 52.9px;
+    font-size: 16px;
+    padding: 12px 16px;
+    border-radius: 30px;
+  }
+  .cardmaintext1 {
+    font-size: 24px;
+    width: 233.7px;
+    height: 72px;
+  }
+  .cardmaintext2 {
+    margin-top: 60px;
+    font-size: 16px;
+    i {
+      color: #f01543;
+    }
+  }
+  .cardmaintext3 {
+    font-size: 16px;
+    i {
+      color: #f01543;
+    }
+  }
+  .mostpopularbigcard {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+  }
+  /* customersection */
+  .customer {
+    background-color: #000929;
+    width: 100%;
+    height: 803px;
+  }
+  .customerssay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .jonsonRoy {
+    width: 304px;
+    height: 270.66px;
+    padding: 66px 20px 20px;
+    border: 1px solid rgba(228, 228, 228, 0.411);
+    border-radius: 20px;
+    color: white;
+    margin-top: 150px;
+  }
+  .customertext {
+    p {
+      margin-top: 60px;
+    }
+  }
+  .jonsonroyicon {
+    i {
+      color: gold;
+    }
+  }
+  .customerimage {
+    position: absolute;
+    img {
+      width: 107px;
+      height: 84px;
+    }
+  }
+  .jonsonroyimage {
+    img {
+      margin-top: 90px;
+      width: 108px;
+      height: 108px;
+    }
+  }
+  .customermaintext {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 100px;
+    font-size: 48px;
+  }
+  .jonsonroymainitems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .jonsonroyitems {
+    margin-top: 90px;
+  }
+  /* acordionsection */
+  
+  .faq-accordion {
+    width: 492px;
+    padding: 81px;
+    h2 {
+      width: 468px;
+      height: 201.56px;
+      font-size: 48px;
+    }
+  }
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active,
+  .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: "\002B";
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+  }
+  
+  .pizzaimage {
+    img {
+      width: 304px;
+      height: 205.39px;
+    }
+  }
+  .lahmacunimage {
+    width: 140px;
+    height: 200px;
+    img {
+      position: absolute;
+      width: 140px;
+      height: 200px;
+    }
+  }
+  .images1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .overlay1 {
+    position: relative;
+    background-color: #000929d6;
+    width: 140px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .overlaytext {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 35px;
+    top: 50px;
+    color: white;
+  }
+  .donerimage {
+    width: 140px;
+    height: 200px;
+    img {
+      position: absolute;
+      width: 140px;
+      height: 200px;
+    }
+  }
+  .ayranimage {
+    img {
+      width: 304px;
+      height: 197px;
+    }
+  }
+  .images2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .overlay2 {
+    position: relative;
+    background-color: #f01543d6;
+    width: 140px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .howtodownload {
+    background: url(https://reservq.vercel.app/assets/rest-bg-542f355f.png);
+    position: relative;
+    margin-top: 300px;
+    height: 500px;
+  }
+  .textdiv {
+    width: 492px;
+    height: 419.84px;
+    padding: 100px;
+    h2 {
+      width: 468px;
+      font-size: 48px;
+      color: white;
+    }
+    h4 {
+      width: 468px;
+      height: 102.28px;
+      font-size: 18px;
+      padding: 24px 0px;
+      color: white;
+    }
+  }
+  .buttondiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 400px;
+  
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 70px;
+      background: #fff;
+      width: 225px;
+      height: 50px;
+      font-weight: 700;
+      justify-content: center;
+      span {
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .button2 a {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    justify-content: center;
+    width: 210px;
+    height: 50px;
+    background: black;
+    color: white;
+    gap: 20px;
+  }
+  .textandimagediv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 420px;
+  }
+  .imagediv {
+    margin-top: 280px;
+    img{
+        height: 208.02px;
+    }
+  }
+  /* footersection */
+  footer {
+    background: url(https://reservq.vercel.app/assets/Footers-bg-7148736e.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    min-height: 100%;
+  }
+  .reservqfooter {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .reservqlogo {
+    width: 304px;
+    height: 48px;
+    img {
+      width: 140px;
+      height: 48px;
+    }
+  }
+  .footertext {
+    width: 304px;
+    height: 118px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 148%;
+    letter-spacing: -0.09px;
+  }
+  .footericon {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .quicklinktext {
+    width: 140px;
+    height: 56px;
+    font-size: 23px;
+    color: white;
+  }
+  .quicklink {
+    ul {
+      li {
+        gap: 30px;
+        a {
+          color: white;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .termstext{
+    height: 56px;
+    font-size: 24px;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: -.24px; 
+    color: white;
+  }
+  .termsprivacy{
+    ul{
+      li{
+        a{
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 40px;
+          letter-spacing: -.09px;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .subscribe{
+    width: 328px;
+    height: 400px;
+  }
+  .subscribetext{
+    h3{
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: -.24px;
+    }
+   
+  }
+  .subscribesearch{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+  input{
+      height: 56px;
+      background: rgba(231, 229, 234, .2);
+      border-radius: 10px;
+      padding-left: 50px;
+      color: #fff;
+      border: 1px solid rgba(231, 229, 234, .2);
+    }
+    a{
+      width: 112px;
+      height: 56px;
+    }
+  }
+  .subscribelink{
+    background-color: #f01543;
+      border: 1px solid;
+      color: white;
+    width: 140px;
+    height: 56px;
+    padding: 13px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -.1px;
+      text-align: center;
+      border-radius: 10px;
+  }
+  .subscribetext2{
+    width: 304px;
+    height: 64px;
+    padding: 32px 0px 0px;
+    color: white;
+    h6{
+      font-size: 20px;
+      height: 32px;
+    }
+  }
+  .subscribeicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+    width: 304px;
+    height: 32.41px;
+    img{
+      width: 47.84px;
+      height: 37.41px;
+    }
+  }
+  .reservqend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0;
+      background: var(--heading-color);
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, .1);
+  h4{
+    font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 145%;
+      letter-spacing: -.09px;
+  }
+  }
